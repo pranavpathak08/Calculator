@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: black;
+}
+
+.containers{
+    margin-top: 80px;
+}
+
+h1{
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.calculator{
+    width: 320px;
+    height: 500px;
+    margin: 0 auto; 
+}
+.result{
+    height: 120px;
+}
+
+.output{
+    text-align: right;
+    font-size: 30px;
+    margin: 10px 20px;
+    padding: 10px;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(83, 79, 79);
+
+}
+hr{
+    color: grey;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color:rgb(208, 181, 11);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.number, .empty{
+    background-color: black;
+    color: white;
+}
+.button, .number{
+    cursor: pointer;
+}
+.button:active, .number:active{
+    font-size: 13px;
+}
+#equals{
+    background-color: rgb(208, 181, 11);
+    color: white;
+}
+
+@media(max-width: 321px){
+    h1{
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    hr{
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
